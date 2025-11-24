@@ -189,16 +189,31 @@ body {
 
 .btn-outline {
     background-color: transparent;
-    color: #222;
-    border: 2px solid #222;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #8A9A5B; /* Sage green color for better visibility */
+    border: 2px solid #8A9A5B; /* Sage green border */
+    box-shadow: 0 4px 15px rgba(138, 154, 91, 0.3); /* Sage green shadow */
 }
 
 .btn-outline:hover {
-    background-color: #222;
+    background-color: #8A9A5B; /* Sage green background on hover */
     color: #fff;
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 25px rgba(138, 154, 91, 0.4); /* Enhanced sage green shadow */
+}
+
+/* CV Download Button */
+.btn-cv {
+    background-color: #8A9A5B; /* Sage green background */
+    color: #fff;
+    border: 2px solid #8A9A5B;
+    box-shadow: 0 4px 15px rgba(138, 154, 91, 0.3);
+    font-weight: 600;
+}
+
+.btn-cv:hover {
+    background-color: #7a8a4b; /* Darker sage green on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(138, 154, 91, 0.4);
 }
 
 /* Contact Form Button */
