@@ -313,7 +313,7 @@ body {
 /* About Me Section */
 .about {
     padding: 100px 0;
-    background-color: #fff; /* Keep white background for contrast */
+    background-color: #1A1410; /* Dark brown background */
 }
 
 .about-content {
@@ -418,7 +418,7 @@ body {
 /* Skills Section */
 .skills {
     padding: 100px 0;
-    background-color: #fafafa;
+    background-color: #1A1410; /* Dark brown background */
 }
 
 .section-header {
@@ -457,11 +457,11 @@ body {
 }
 
 .skill-card {
-    background-color: #fff;
+    background-color: #2A2420; /* Darker brown for cards */
     border-radius: 10px;
     padding: 30px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -473,7 +473,7 @@ body {
 .skill-card h3 {
     font-size: 20px;
     font-weight: 700;
-    color: #333;
+    color: #f0f0f0; /* Light color for visibility */
     margin-bottom: 20px;
 }
 
@@ -540,7 +540,7 @@ body {
 /* Services Section */
 .services {
     padding: 100px 0;
-    background-color: #fff; /* Keep white background for contrast */
+    background-color: #1A1410; /* Dark brown background */
 }
 
 .services .section-header .section-subtitle {
@@ -576,11 +576,11 @@ body {
 }
 
 .service-card {
-    background-color: #fff;
+    background-color: #2A2420; /* Darker brown for cards */
     border-radius: 15px;
     padding: 40px 30px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
@@ -634,7 +634,7 @@ body {
 .service-card h3 {
     font-size: 22px;
     font-weight: 700;
-    color: #333;
+    color: #f0f0f0; /* Light color for visibility */
     margin-bottom: 15px;
     transition: color 0.3s ease;
 }
@@ -645,7 +645,7 @@ body {
 
 .service-description {
     font-size: 16px;
-    color: #555;
+    color: #d0d0d0; /* Light color for visibility */
     line-height: 1.7;
     margin-top: 15px;
 }
@@ -653,7 +653,7 @@ body {
 /* Projects Section */
 .projects {
     padding: 100px 0;
-    background-color: #fff; /* Keep white background for contrast */
+    background-color: #1A1410; /* Dark brown background */
 }
 
 .projects .section-header .section-subtitle {
@@ -691,9 +691,9 @@ body {
 .project-card {
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: all 0.4s ease;
-    background-color: #fff;
+    background-color: #2A2420; /* Darker brown for cards */
 }
 
 .project-card:hover {
@@ -715,7 +715,7 @@ body {
 .project-content h3 {
     font-size: 22px;
     font-weight: 700;
-    color: #333;
+    color: #f0f0f0; /* Light color for visibility */
     margin-bottom: 15px;
     transition: color 0.3s ease;
 }
@@ -726,7 +726,7 @@ body {
 
 .project-description {
     font-size: 16px;
-    color: #555;
+    color: #d0d0d0; /* Light color for visibility */
     line-height: 1.7;
     margin-bottom: 0;
 }
@@ -734,7 +734,7 @@ body {
 /* Blog Section */
 .blog {
     padding: 100px 0;
-    background-color: #fff;
+    background-color: #1A1410; /* Dark brown background */
 }
 
 .blog .section-header .section-subtitle {
@@ -770,10 +770,10 @@ body {
 }
 
 .blog-card {
-    background-color: #fff;
+    background-color: #2A2420; /* Darker brown for cards */
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: all 0.4s ease;
 }
 
@@ -800,19 +800,19 @@ body {
 
 .blog-date {
     font-size: 14px;
-    color: #666;
+    color: #b0b0b0; /* Light color for visibility */
 }
 
 .blog-category {
     font-size: 14px;
-    color: #667eea;
+    color: #8A9A5B; /* Sage green for visibility */
     font-weight: 600;
 }
 
 .blog-title {
     font-size: 22px;
     font-weight: 700;
-    color: #333;
+    color: #f0f0f0; /* Light color for visibility */
     margin-bottom: 15px;
     transition: color 0.3s ease;
 }
@@ -823,13 +823,13 @@ body {
 
 .blog-excerpt {
     font-size: 16px;
-    color: #555;
+    color: #d0d0d0; /* Light color for visibility */
     line-height: 1.7;
     margin-bottom: 20px;
 }
 
 .blog-link {
-    color: #222;
+    color: #f0f0f0; /* Light color for visibility */
     font-weight: 600;
     text-decoration: none;
     position: relative;
@@ -853,7 +853,7 @@ body {
 /* Contact Section */
 .contact {
     padding: 100px 0;
-    background-color: #fafafa; /* Light background (off-white/cream) */
+    background-color: #1A1410; /* Dark brown background */
 }
 
 .contact .section-header .section-subtitle {
@@ -892,10 +892,10 @@ body {
 }
 
 .contact-form {
-    background-color: #fff;
+    background-color: #2A2420; /* Darker brown for cards */
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .form-group {
