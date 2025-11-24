@@ -224,6 +224,20 @@ body {
 }
 
 /* Vibration Animation */
+@-webkit-keyframes vibrate {
+    0% { -webkit-transform: translate(0); }
+    10% { -webkit-transform: translate(-2px, -2px); }
+    20% { -webkit-transform: translate(2px, 2px); }
+    30% { -webkit-transform: translate(-2px, 2px); }
+    40% { -webkit-transform: translate(2px, -2px); }
+    50% { -webkit-transform: translate(-2px, -2px); }
+    60% { -webkit-transform: translate(2px, 2px); }
+    70% { -webkit-transform: translate(-2px, 2px); }
+    80% { -webkit-transform: translate(2px, -2px); }
+    90% { -webkit-transform: translate(-2px, -2px); }
+    100% { -webkit-transform: translate(0); }
+}
+
 @keyframes vibrate {
     0% { transform: translate(0); }
     10% { transform: translate(-2px, -2px); }
@@ -245,7 +259,8 @@ body {
     border: 2px solid #8A9A5B;
     box-shadow: 0 4px 15px rgba(138, 154, 91, 0.3);
     font-weight: 600;
-    animation: vibrate 0.5s infinite;
+    -webkit-animation: vibrate 0.3s infinite;
+    animation: vibrate 0.3s infinite;
     transition: all 0.3s ease;
 }
 
