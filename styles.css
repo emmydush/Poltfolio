@@ -24,8 +24,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(26, 20, 16, 0.95); /* Dark brown with transparency */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     padding: 20px 0;
 }
@@ -54,7 +54,7 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #222;
+    background-color: #f0f0f0; /* Light color for visibility on dark background */
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -65,10 +65,12 @@ body {
 
 .nav-toggle.is-active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background-color: #f0f0f0;
 }
 
 .nav-toggle.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #f0f0f0;
 }
 
 .nav-menu {
