@@ -39,10 +39,24 @@ body {
     padding: 0 20px;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .logo {
     font-size: 24px;
     font-weight: 700;
     color: #f0f0f0;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #8A9A5B; /* Sage green border */
 }
 
 .nav-toggle {
