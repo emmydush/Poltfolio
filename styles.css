@@ -541,7 +541,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 20px;
     font-weight: 700;
-    color: #333;
+    color: #f0f0f0; /* Light color for visibility on dark background */
 }
 
 .skill-stats {
@@ -558,13 +558,13 @@ body {
     display: block;
     font-size: 16px;
     font-weight: 700;
-    color: #333;
+    color: #f0f0f0; /* Light color for visibility on dark background */
 }
 
 .stat-label {
     display: block;
     font-size: 14px;
-    color: #666;
+    color: #b0b0b0; /* Lighter color for visibility on dark background */
 }
 
 /* Services Section */
