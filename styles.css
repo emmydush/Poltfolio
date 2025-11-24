@@ -271,7 +271,7 @@ body {
 /* Stats Section */
 .stats {
     padding: 100px 0;
-    background-color: #fafafa;
+    background-color: #1A1410; /* Dark brown background */
 }
 
 .stats-grid {
@@ -283,9 +283,9 @@ body {
 .stat-item {
     text-align: center;
     padding: 30px;
-    background-color: #fff;
+    background-color: #2A2420; /* Darker brown for cards */
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
 
@@ -296,6 +296,7 @@ body {
 .stat-icon {
     font-size: 40px;
     margin-bottom: 20px;
+    color: #f0f0f0; /* Light color for visibility */
 }
 
 .stat-number {
